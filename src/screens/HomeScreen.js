@@ -1,11 +1,11 @@
-import { View, Text, SafeAreaView } from "react-native";
+import { View, Text, SafeAreaView, StatusBar } from "react-native";
 import React from "react";
 
 const HomeScreen = () => {
   return (
-    <SafeAreaView>
-      <Text>HomeScreen</Text>
-    </SafeAreaView>
+    <View className="flex-1 relative">
+      <StatusBar style="light" />
+    </View>
   );
 };
 

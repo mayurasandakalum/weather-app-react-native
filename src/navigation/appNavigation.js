@@ -24,4 +24,4 @@ const AppNavigation = () => {
   );
 };
 
-export default appNavigation;
+export default AppNavigation;
